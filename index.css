@@ -324,7 +324,7 @@ option {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: auto;
-  gap: 20px;
+  gap: 35px;
   transform: translateX(0);
   margin-top: 20px;
   transition: all 0.5s ease;
@@ -448,10 +448,11 @@ textarea:focus {
   margin: 0 50px;
   font-size: 16px;
   border-radius: 2px;
-  padding: 15px 50px;
+  padding: 10px 50px;
   margin: 10px;
   cursor: pointer;
   display: inline-block;
+  border-radius: 10px;
 }
 
 .form-btn input:nth-of-type(1) {
