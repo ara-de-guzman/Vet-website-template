@@ -50,10 +50,10 @@ nav ul {
 
 nav ul li {
   margin: 0 20px;
-  transition: transform .4s ease;
+  transition: transform 0.4s ease;
 }
 
-nav ul li:hover  {
+nav ul li:hover {
   transform: translateY(-2px);
 }
 
@@ -64,7 +64,6 @@ nav ul li a {
 
 nav ul li a:hover {
   color: var(--pink-color);
-  
 }
 
 .social-media {
@@ -326,7 +325,7 @@ option {
   grid-template-rows: auto;
   gap: 35px;
   transform: translateX(0);
-  margin-top: 20px;
+  margin-top: 40px;
   transition: all 0.5s ease;
 }
 
@@ -362,10 +361,13 @@ option {
 .review-text {
   padding: 50px 20px;
 }
+.review-text-header p {
+  width: 50%;
+}
 
 .review-text p {
   font-size: 14px;
-  width: 50%;
+  width: 100%;
   line-height: 25px;
 }
 
