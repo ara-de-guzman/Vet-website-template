@@ -172,6 +172,7 @@ i {
   padding: 0;
   left: 0;
   right: 0;
+
   height: 100vh;
   position: fixed;
   display: flex;
@@ -557,11 +558,17 @@ textarea:focus {
     font-size: 12px;
   }
   .appointment-form {
-    padding: 1rem;
+   padding:1rem;
+    z-index: 12;
+    top:0;
   }
   .appointment-form form {
     width: 100%;
     padding: 1rem;
+    padding: 1rem;
+    height: auto;
+    overflow: visible;
+    
   }
   .time-bar,
   .date-bar,
