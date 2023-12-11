@@ -172,14 +172,13 @@ i {
   padding: 0;
   left: 0;
   right: 0;
-
+  z-index: 12;
   height: 100vh;
   position: fixed;
   display: flex;
   align-items: center;
   justify-content: center;
   transform: translateY(-200%);
-  z-index: 2;
   transition: transform 1s ease;
 }
 
