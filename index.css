@@ -574,6 +574,9 @@ textarea:focus {
   select {
     width: 100%;
   }
+  .services-card-container {
+    padding: 20px;
+  }
 }
 
 @media screen and (max-width: 850px) {
